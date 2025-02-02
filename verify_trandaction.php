@@ -31,7 +31,7 @@ if($payment){
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
     curl_setopt($ch,CURLOPT_POSTFIELDS, $data);
 
-    $result = curl_exec($ch);
+    // $result = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     // $result;
     curl_close($ch);
