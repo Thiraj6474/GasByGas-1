@@ -2,7 +2,7 @@
   <input type="hidden" name="request_id" value="<?= $_GET['request_id'] ?>" />
   <div class="modal-header">
     <h5 class="modal-title" id="payModalLabel">Pay the Gas sent to your store</h5>
-    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+    <!-- <button class="close" type="button" data-dismiss="modal" aria-label="Close"> -->
       <span aria-hidden="true">×</span>
     </button>
   </div>
